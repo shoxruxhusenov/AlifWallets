@@ -10,4 +10,8 @@
     <ProjectReference Include="..\alifwallet.DataAccess\alifwallet.DataAccess.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
 </Project>

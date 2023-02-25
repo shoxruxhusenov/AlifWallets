@@ -18,4 +18,9 @@
     <ProjectReference Include="..\alifwallet.Service\alifwallet.Service.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Middlewares\" />
+  </ItemGroup>
+
 </Project>
