@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "alifwallet.Api", "src\alifwallet.Api\alifwallet.Api.csproj", "{1A6DC2C6-B940-4FBD-A9A5-C8269576F3CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "alifwallet.DataAccess", "src\alifwallet.DataAccess\alifwallet.DataAccess.csproj", "{A4256F6B-DD90-43B7-8735-665EA1132A08}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "alifwallet.Domain", "src\alifwallet.Domain\alifwallet.Domain.csproj", "{15BA3900-5410-44E5-92B0-81821F31309C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "alifwallet.Service", "src\alifwallet.Service\alifwallet.Service.csproj", "{F9DA80BB-DD44-4CD4-A6EB-B555D8C41DB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A6DC2C6-B940-4FBD-A9A5-C8269576F3CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A6DC2C6-B940-4FBD-A9A5-C8269576F3CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A6DC2C6-B940-4FBD-A9A5-C8269576F3CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A6DC2C6-B940-4FBD-A9A5-C8269576F3CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4256F6B-DD90-43B7-8735-665EA1132A08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4256F6B-DD90-43B7-8735-665EA1132A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4256F6B-DD90-43B7-8735-665EA1132A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4256F6B-DD90-43B7-8735-665EA1132A08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15BA3900-5410-44E5-92B0-81821F31309C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15BA3900-5410-44E5-92B0-81821F31309C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15BA3900-5410-44E5-92B0-81821F31309C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15BA3900-5410-44E5-92B0-81821F31309C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9DA80BB-DD44-4CD4-A6EB-B555D8C41DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9DA80BB-DD44-4CD4-A6EB-B555D8C41DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9DA80BB-DD44-4CD4-A6EB-B555D8C41DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9DA80BB-DD44-4CD4-A6EB-B555D8C41DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C922357-7670-40E0-9402-53928513BBBE}
+	EndGlobalSection
+EndGlobal
