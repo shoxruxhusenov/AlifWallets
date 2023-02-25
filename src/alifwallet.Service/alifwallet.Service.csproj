@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\alifwallet.DataAccess\alifwallet.DataAccess.csproj" />
+  </ItemGroup>
+
 </Project>
