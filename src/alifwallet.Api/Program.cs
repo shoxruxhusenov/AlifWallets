@@ -1,4 +1,7 @@
 using alifwallet.Api.Configurations;
+using alifwallet.Api.Middlewares;
+using alifwallet.Service.Interfaces;
+using alifwallet.Service.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +12,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddScoped<IWalletService, WalletService>();
+
 builder.ConfigureDataAccess();
 var app = builder.Build();
 
@@ -18,6 +23,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseMiddleware<ExceptionHandlerMiddleware>();
 
 app.UseHttpsRedirection();
 
